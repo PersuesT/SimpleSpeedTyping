@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" />
+    <title>Speed Typing Game</title>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <h2>Speed Typing Game</h2>
+      <small>Type the following:</small>
+
+      <h2 id="word"></h2>
+
+      <input
+        type="text"
+        id="text"
+        placeholder="Type your word here..."
+      />
+
+      <p class="time-container">Time left: <span id="time">15s</span></p>
+
+      <p class="score-container">Score: <span id="score">0</span></p>
+
+      <div id="end-game-container" class="end-game-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
